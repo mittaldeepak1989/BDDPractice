@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "scenario description",
+        "description": "",
+        "id": "this-feature-is-designed-to-validate-multiple-sets-of-data;scenario-description;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 132668067,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a precondition has value \"ff\" with \"http://demo.nopcommerce.com/\"",
+            "match": {
+              "location": "S98765_TC_MultiDataProviders.a_launching()"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Custom"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "scenario description",
+        "description": "",
+        "id": "this-feature-is-designed-to-validate-multiple-sets-of-data;scenario-description;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78917,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a precondition has value \"chrome\" with \"http://demo.nopcommerce.com/\"",
+            "match": {
+              "location": "S98765_TC_MultiDataProviders.a_launching()"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Custom"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is designed to validate multiple sets of data",
+    "description": "",
+    "id": "this-feature-is-designed-to-validate-multiple-sets-of-data",
+    "keyword": "Feature",
+    "uri": "OtherFeature.feature"
+  }
+]

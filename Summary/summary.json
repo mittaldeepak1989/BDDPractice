@@ -1,0 +1,55 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "This scenario is designed to validate section headers",
+        "description": "",
+        "id": "as-a-business-user-i-need-to-verify-the-following;this-scenario-is-designed-to-validate-section-headers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12618678074,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "As an user i want to launch Firefox browser and maximize it",
+            "match": {
+              "location": "S123412_TC_001_SectionHeader.launchApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30859551613,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Application is launched click on register link",
+            "match": {
+              "location": "S123412_TC_001_SectionHeader.clickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Verify Register page is launched successfully",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a business user i need to verify the following",
+    "description": "Dev team should develop the registration feature in 3 sections\r\nQA team must validate 3 section headers and their respective fields\r\nDev team should write a business logic to register multiple users with different sets of data\r\nQA team must validate each and every input field",
+    "id": "as-a-business-user-i-need-to-verify-the-following",
+    "keyword": "Feature",
+    "uri": "Registration.feature"
+  }
+]
